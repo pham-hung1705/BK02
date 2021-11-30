@@ -18,7 +18,7 @@ body .toast {
       float: left; }
     body .toast .toast-header small {
       font-size: 10px;
-      padding-left: 50%; }
+      padding-left: 45%; }
   body .toast .toast-body {
     padding: 5px; }
 
