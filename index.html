@@ -12,28 +12,29 @@
 
 <body>
     <button type="button" id="liveToast">Show live toast</button>
-    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-        <div class="toast-header">
-            <img src="" alt="">
-            <strong>Bootstrap5</strong>
+    <div class="toast">
+        <div class=" toast-header ">
+            <strong>Hung Nguyen</strong>
             <small>11 mins ago</small>
-            <button type="button" class="btnShow" data-bs-dismiss="toast" aria-label="Close">x</button>
+            <button type="button " class="btnShow ">x</button>
         </div>
-        <div class="toast-body">
+        <div class="toast-body ">
             Hello! My love!!!!
         </div>
     </div>
 </body>
 <script>
-    var toastTrigger = document.getElementsByClassName('liveToast')
-    var toastLiveExample = document.getElementsByClassName('toast')
-    if (toastTrigger) {
-        toastTrigger.addEventListener('click', function() {
-            var toast = new bootstrap.Toast(toastLiveExample)
-
-            toast.show()
-        })
-    }
+    $(function() {
+        $('div').hide();
+        $('button').click(function() {
+            $('div').show();
+        });
+    });
+    $(function() {
+        $('.btnShow').click(function() {
+            $('div').hide();
+        });
+    });
 </script>
 
 </html>
