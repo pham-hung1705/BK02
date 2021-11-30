@@ -1,0 +1,25 @@
+body .toast {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  background-color: rgba(168, 168, 168, 0.808);
+  width: 350px;
+  height: 100px;
+  border-radius: 5px; }
+  body .toast .toast-header {
+    border-radius: 5px 5px 0px 0px;
+    background-color: rgba(241, 229, 229, 0.938);
+    padding: 7px 5px;
+    font-size: 1em; }
+    body .toast .toast-header strong {
+      float: left; }
+    body .toast .toast-header small {
+      font-size: 10px;
+      padding-left: 50%; }
+  body .toast .toast-body {
+    padding: 5px; }
+
+/*# sourceMappingURL=style.css.map */
